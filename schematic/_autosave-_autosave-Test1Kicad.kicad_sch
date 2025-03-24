@@ -7868,6 +7868,18 @@
 		(uuid 4a46d032-365e-48e8-a1ed-ebff5f12c19a)
 	)
 	(rectangle
+		(start 248.92 200.66)
+		(end 293.37 233.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54695618-f3f0-418e-a67c-87c1a2df2a5d)
+	)
+	(rectangle
 		(start 344.17 55.88)
 		(end 344.17 55.88)
 		(stroke
@@ -7910,6 +7922,16 @@
 			)
 		)
 		(uuid "4271a91a-bf59-4703-b9ae-50d484117759")
+	)
+	(text "Voltage Regulator"
+		(exclude_from_sim no)
+		(at 258.318 202.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "710bc560-9d77-431a-bd6a-0a16bc14683e")
 	)
 	(text "Accel_Gyro_2"
 		(exclude_from_sim no)
@@ -9225,16 +9247,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 53.34) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfb1189a-3f72-442f-a09a-8221b00626e8")
-	)
-	(wire
-		(pts
 			(xy 359.41 189.23) (xy 367.03 189.23)
 		)
 		(stroke
@@ -9262,6 +9274,16 @@
 			(type default)
 		)
 		(uuid "e162b355-c0e4-47f4-a839-32c3595de1d0")
+	)
+	(wire
+		(pts
+			(xy 261.62 217.17) (xy 261.62 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e180eff2-4706-4030-99cc-02cf0e67443b")
 	)
 	(wire
 		(pts
@@ -11576,6 +11598,76 @@
 			(project "_autosave-Test1Kicad"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369fd900-63af-49f4-aaa1-1ed5b2331a23")
+		(property "Reference" "R1"
+			(at 264.16 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330k"
+			(at 264.16 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.842 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3991f47a-3f33-456f-a25e-a5d47ea0cbc1")
+		)
+		(pin "1"
+			(uuid "4ab3555d-7bbf-45b3-b9e5-c194df62841a")
+		)
+		(instances
+			(project ""
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14129,6 +14221,72 @@
 			(project "Test1Kicad"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b68883-e986-4e9e-99fa-2bad59ecea07")
+		(property "Reference" "#PWR016"
+			(at 261.62 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c158a9-3362-4593-a439-d9b387ffee05")
+		)
+		(instances
+			(project ""
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
