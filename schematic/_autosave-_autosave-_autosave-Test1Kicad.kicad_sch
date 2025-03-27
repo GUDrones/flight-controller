@@ -12653,7 +12653,7 @@
 	)
 	(rectangle
 		(start 212.09 311.15)
-		(end 250.19 345.44)
+		(end 250.19 347.98)
 		(stroke
 			(width 0)
 			(type default)
@@ -12806,7 +12806,7 @@
 		)
 		(uuid "66bb6354-0f4d-4e5c-a322-e47d12349d4f")
 	)
-	(text_box "CAP& ADC IN\n"
+	(text_box "CAP& ADC IN - pin 5 missing\n"
 		(exclude_from_sim no)
 		(at 379.73 298.45 0)
 		(size 40.64 31.75)
@@ -12885,6 +12885,26 @@
 			(justify left top)
 		)
 		(uuid "c9c89032-66fa-472c-82fb-a858949295ea")
+	)
+	(text_box "I2C A\n"
+		(exclude_from_sim no)
+		(at 342.9 345.44 0)
+		(size 34.29 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d9a91dbd-220f-4ad1-9f13-c6aaac1cc28c")
 	)
 	(text_box "Oscillator\n"
 		(exclude_from_sim no)
@@ -16162,6 +16182,28 @@
 			)
 		)
 	)
+	(global_label "I2C4_SCL_EXTERNAL2"
+		(shape input)
+		(at 351.79 360.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35696e6b-4843-42fe-97da-3b1812a247fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.9136 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_5V"
 		(shape input)
 		(at 396.24 327.66 0)
@@ -16483,6 +16525,28 @@
 		(uuid "4cf200e7-2242-43c2-850b-9ab5028b4fbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.31 294.0571 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C4_SDA_EXTERNAL2"
+		(shape input)
+		(at 124.46 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e147d0b-76d8-4d7c-9e58-00a475e03260")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2759 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17196,6 +17260,28 @@
 			)
 		)
 	)
+	(global_label "I2C4_SCL_EXTERNAL2"
+		(shape input)
+		(at 124.46 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99acac13-fc69-42e3-a055-565f25fc445e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.3364 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI5_CS1_EXTERNAL1"
 		(shape input)
 		(at 124.46 69.85 180)
@@ -17724,6 +17810,28 @@
 			)
 		)
 	)
+	(global_label "I2C4_SDA_EXTERNAL2"
+		(shape input)
+		(at 351.79 358.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3f90d85-98a3-4a7a-8ae1-32583897e48c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.9741 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART4_TX_I2C2"
 		(shape input)
 		(at 228.6 327.66 270)
@@ -17764,6 +17872,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_5V"
+		(shape input)
+		(at 351.79 355.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c88cfcff-71af-4949-8a3d-2ce6b6f125c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.6695 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23052,6 +23182,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 346.71 360.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eb5677f-3b63-43f9-8e86-61f5a8b96d81")
+		(property "Reference" "J12"
+			(at 347.345 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C A"
+			(at 347.345 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 346.71 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3606a07-d1a6-4b54-b95a-9b04003186e8")
+		)
+		(pin "4"
+			(uuid "b246b047-00f6-42bc-b7f9-a38409e5e9d7")
+		)
+		(pin "3"
+			(uuid "ed3d9bad-947a-4b7d-a713-5d2fd4cc238d")
+		)
+		(pin "2"
+			(uuid "1e084b5f-adb0-47a4-861e-72da9e17732a")
+		)
+		(instances
+			(project ""
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 374.65 138.43 90)
 		(unit 1)
@@ -23393,6 +23597,71 @@
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 363.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9935e1d1-26f1-4f42-9818-8e38772aec9c")
+		(property "Reference" "#PWR042"
+			(at 351.79 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 352.806 367.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a0d903e-83a3-4d91-8fc0-02ece59b66ae")
+		)
+		(instances
+			(project "_autosave-_autosave-_autosave-Test1Kicad"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
