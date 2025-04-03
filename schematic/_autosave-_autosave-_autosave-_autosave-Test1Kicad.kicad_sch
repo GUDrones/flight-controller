@@ -3723,6 +3723,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148WT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WT"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ICM-20689:ICM-20689"
 			(pin_names
 				(offset 1.016)
@@ -14094,16 +14261,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 116.84) (xy 381 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02c9f78a-d9dd-4fdb-8aae-2e796d73ec0d")
-	)
-	(wire
-		(pts
 			(xy 289.56 74.93) (xy 289.56 73.66)
 		)
 		(stroke
@@ -14511,6 +14668,16 @@
 			(type default)
 		)
 		(uuid "4488e9b2-8be5-43db-8ab6-93498efcfd02")
+	)
+	(wire
+		(pts
+			(xy 123.19 179.07) (xy 124.46 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448cd8c6-f3c3-4eb2-9bdf-d2c9cc2e6616")
 	)
 	(wire
 		(pts
@@ -15724,16 +15891,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 179.07) (xy 124.46 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de247c97-0714-440f-86f8-df9e78ae986c")
-	)
-	(wire
-		(pts
 			(xy 318.77 158.75) (xy 323.85 158.75)
 		)
 		(stroke
@@ -15801,16 +15958,6 @@
 			(type default)
 		)
 		(uuid "e33ddedf-fb7e-4fb7-9fa7-ffc5ed5ad6ee")
-	)
-	(wire
-		(pts
-			(xy 381 119.38) (xy 384.81 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5011000-2c39-47df-a60a-af62bb517389")
 	)
 	(wire
 		(pts
@@ -17020,7 +17167,7 @@
 	)
 	(global_label "I2C2_SDA_UART4"
 		(shape input)
-		(at 124.46 179.07 180)
+		(at 123.19 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17030,7 +17177,7 @@
 		)
 		(uuid "2bc0a6ce-d883-432c-825b-4d6a95417437")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8115 179.07 0)
+			(at 104.5415 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17207,6 +17354,28 @@
 		(uuid "3507a5ee-3eb0-4e86-8956-367e55714a4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 528.0999 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI1_MISO"
+		(shape input)
+		(at 388.62 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "351ec2a1-9c66-43a1-94b7-6cf2c0541535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.4628 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18976,6 +19145,28 @@
 			)
 		)
 	)
+	(global_label "SPI1_MISO"
+		(shape input)
+		(at 388.62 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97ff65be-6c43-4d88-bc0f-993abd9a6196")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.4628 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART4_RX_I2C2"
 		(shape input)
 		(at 403.86 313.69 270)
@@ -19077,28 +19268,6 @@
 		(uuid "9c53ef30-197c-47df-9440-79501c51f62d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 530.6399 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_MISO"
-		(shape input)
-		(at 384.81 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c7b1dad-e0f8-4e8e-a44b-8158b8185b6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.6528 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20314,28 +20483,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_MISO"
-		(shape input)
-		(at 384.81 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cde2a9d3-9c2e-4399-8fe6-e5913ee95a67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.6528 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -22110,6 +22257,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 384.81 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02614668-77ee-441b-832d-be9013721e35")
+		(property "Reference" "D2"
+			(at 384.81 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 384.81 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 384.81 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 384.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 384.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 384.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 384.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11375e49-a0cf-4397-8a04-485e758e5900")
+		)
+		(pin "2"
+			(uuid "d8e8e80a-1048-45fe-babf-9de6d780ec78")
+		)
+		(instances
+			(project "_autosave-_autosave-_autosave-_autosave-Test1Kicad"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 513.08 210.82 90)
 		(unit 1)
@@ -23766,6 +23999,92 @@
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 384.81 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e2fd25b-0a04-40f1-96d5-9b2a4b2ed580")
+		(property "Reference" "D1"
+			(at 384.556 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 384.81 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 384.81 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 384.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 384.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 384.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 384.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a9797f-4155-44c0-ad30-d5399523c6e5")
+		)
+		(pin "2"
+			(uuid "0925c302-90b1-4df8-9a6b-e20232f7e3e1")
+		)
+		(instances
+			(project ""
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(reference "D1")
 					(unit 1)
 				)
 			)
