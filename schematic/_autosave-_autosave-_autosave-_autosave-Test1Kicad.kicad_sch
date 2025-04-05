@@ -13526,12 +13526,6 @@
 		(uuid "a0c855f6-c2b1-4062-ba18-795ad66907ae")
 	)
 	(junction
-		(at 123.19 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a32ac7e0-6c45-474f-8184-d12c29eb50a1")
-	)
-	(junction
 		(at 525.78 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14288,16 +14282,6 @@
 			(type default)
 		)
 		(uuid "05b42447-107d-4fdc-9c54-951e5a4c3124")
-	)
-	(wire
-		(pts
-			(xy 123.19 17.78) (xy 127 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f3fcf8-5991-4c5b-a990-fcccf80371cd")
 	)
 	(wire
 		(pts
@@ -15201,16 +15185,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 17.78) (xy 123.19 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed74f10-ff80-4d8f-a027-f2d2ed23779d")
-	)
-	(wire
-		(pts
 			(xy 334.01 165.1) (xy 345.44 165.1)
 		)
 		(stroke
@@ -15641,16 +15615,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 20.32) (xy 123.19 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bccef76d-69ae-4643-853e-643325f2a835")
-	)
-	(wire
-		(pts
 			(xy 356.87 270.51) (xy 356.87 276.86)
 		)
 		(stroke
@@ -15708,16 +15672,6 @@
 			(type default)
 		)
 		(uuid "c3f89e68-57b4-4f43-940d-f52b4108fa8e")
-	)
-	(wire
-		(pts
-			(xy 127 20.32) (xy 123.19 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c407e5c9-d90c-4502-bae1-438eed8a788a")
 	)
 	(wire
 		(pts
@@ -16561,28 +16515,6 @@
 			)
 		)
 	)
-	(global_label "VDD_ports"
-		(shape input)
-		(at 154.94 26.67 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a54eeda-2c34-4479-ba79-b24b5729094a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 14.2506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FMU_CH1"
 		(shape input)
 		(at 553.72 322.58 0)
@@ -16627,7 +16559,7 @@
 			)
 		)
 	)
-	(global_label "VDDIO_sensors"
+	(global_label "REG_3V"
 		(shape input)
 		(at 318.77 153.67 180)
 		(fields_autoplaced yes)
@@ -16639,7 +16571,7 @@
 		)
 		(uuid "0e818d32-0880-4bc7-a69d-25b1f5221744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.9962 153.67 0)
+			(at 308.8301 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16693,7 +16625,7 @@
 			)
 		)
 	)
-	(global_label "VDDIO_sensors"
+	(global_label "REG_3V"
 		(shape input)
 		(at 281.94 92.71 0)
 		(fields_autoplaced yes)
@@ -16705,7 +16637,7 @@
 		)
 		(uuid "1014d56c-5b9b-4fad-abac-b0e2024022e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.7138 92.71 0)
+			(at 291.8799 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17617,28 +17549,6 @@
 			)
 		)
 	)
-	(global_label "REG_3V"
-		(shape input)
-		(at 118.11 17.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4099c2cd-920e-4d00-af95-f5f3afc0f94b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.1701 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN1_RX"
 		(shape input)
 		(at 124.46 82.55 180)
@@ -18453,7 +18363,7 @@
 			)
 		)
 	)
-	(global_label "VDDIO_sensors"
+	(global_label "REG_3V"
 		(shape input)
 		(at 345.44 165.1 0)
 		(fields_autoplaced yes)
@@ -18465,7 +18375,7 @@
 		)
 		(uuid "6cad8ef7-9e0f-443c-9dc0-b2965260f26f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.2138 165.1 0)
+			(at 355.3799 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18981,7 +18891,7 @@
 			)
 		)
 	)
-	(global_label "VDD_ports"
+	(global_label "REG_3V"
 		(shape input)
 		(at 445.77 251.46 180)
 		(fields_autoplaced yes)
@@ -18993,34 +18903,12 @@
 		)
 		(uuid "87a071da-5cd0-4150-bebe-c463bc3ba761")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 433.3506 251.46 0)
+			(at 435.8301 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDDIO_sensors"
-		(shape input)
-		(at 127 17.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89d090e4-d2eb-4340-a52d-1bb8eaed2931")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7738 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -19456,28 +19344,6 @@
 		(uuid "a26df62c-be48-456b-a656-81535f144246")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 559.8499 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_ports"
-		(shape input)
-		(at 127 20.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4068388-a004-409a-ab46-a9521c397f65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4194 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20037,28 +19903,6 @@
 			)
 		)
 	)
-	(global_label "VDDIO_sensors"
-		(shape input)
-		(at 152.4 26.67 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bbd6b9b5-c652-46a5-a80c-53d8f5724e82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 9.8962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "nSAFETY_SWITCH_LED_OUT"
 		(shape input)
 		(at 205.74 240.03 0)
@@ -20323,7 +20167,7 @@
 			)
 		)
 	)
-	(global_label "VDD_ports"
+	(global_label "REG_3V"
 		(shape input)
 		(at 458.47 321.31 0)
 		(fields_autoplaced yes)
@@ -20335,7 +20179,7 @@
 		)
 		(uuid "c879e01a-204d-46ae-92af-a2fcdddf7a02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 470.8894 321.31 0)
+			(at 468.4099 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
