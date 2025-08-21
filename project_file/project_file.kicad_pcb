@@ -3085,7 +3085,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1001a6dc-349e-4a3e-a452-63ab83b70e3a")
-		(at 95.575 116.2)
+		(at 208.715 97.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -3286,7 +3286,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "18793841-a830-4bdb-b733-7ddbe89f272d")
-		(at 101.55 108.8)
+		(at 214.69 90.1)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -3649,7 +3649,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "18e4a907-936b-49e9-99c7-ef2be822b318")
-		(at 98.6 183.6)
+		(at 98.2 181.2)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J71"
@@ -3666,6 +3666,7 @@
 		(property "Value" "Conn_01x01_Socket"
 			(at 0 2.54 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0f25b184-6d29-4434-9752-c4874f033d57")
 			(effects
 				(font
@@ -5294,7 +5295,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "22b887de-4b27-42c8-bf65-dbed2efa5b1f")
-		(at 109.125 117 180)
+		(at 222.265 98.3 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -5495,7 +5496,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "24509da2-4f61-454c-b27d-fe14e0f93236")
-		(at 118.16 67.8)
+		(at 108.6 142)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J76"
@@ -5512,6 +5513,7 @@
 		(property "Value" "Conn_01x01_Socket"
 			(at 0 2.54 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c8189033-1078-4877-ae11-0abc873ecbf9")
 			(effects
 				(font
@@ -9536,7 +9538,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "4dff9b08-6770-42b9-9629-b61ded19b3fb")
-		(at 113.44 67.8)
+		(at 91.8 141)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J74"
@@ -9553,6 +9555,7 @@
 		(property "Value" "Conn_01x01_Socket"
 			(at 0 2.54 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4d6caa73-cb12-4a2c-8c30-fc46f90204dd")
 			(effects
 				(font
@@ -9698,7 +9701,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4f05a321-ec6a-4d1f-9a28-9be9f0018e58")
-		(at 103.125 117 180)
+		(at 216.265 98.3 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -10910,7 +10913,7 @@
 	(footprint "Package_BGA:UFBGA-201_10x10mm_Layout15x15_P0.65mm"
 		(layer "F.Cu")
 		(uuid "5c9a5ff8-88aa-4b65-9bac-98c788b908d8")
-		(at 68.4 74.1)
+		(at 180.1 74.7)
 		(descr "UFBGA-201, 10.0x10.0mm, 201 Ball, 15x15 Layout, 0.65mm Pitch, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=166")
 		(tags "BGA 201 0.65")
 		(property "Reference" "U1"
@@ -14339,7 +14342,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "6630f19d-033f-4bef-84e7-1f2e7a8bd4ed")
-		(at 118 180.2)
+		(at 117.2 172.4)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J73"
@@ -14356,6 +14359,7 @@
 		(property "Value" "Conn_01x01_Socket"
 			(at 0 2.54 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "228f3430-f690-43e1-b6a7-7bb508806dd0")
 			(effects
 				(font
@@ -16628,7 +16632,7 @@
 	(footprint "2908-05WB-MG:3M_2908-05WB-MG"
 		(layer "F.Cu")
 		(uuid "7eff801a-4444-451c-897d-720b3ed497c9")
-		(at 100.4 97.2)
+		(at 213.54 78.5)
 		(property "Reference" "J15"
 			(at -8.27711 3.72596 180)
 			(layer "F.SilkS")
@@ -17062,7 +17066,7 @@
 			)
 			(polygon
 				(pts
-					(xy 107.05387 92.2) (xy 107.65 92.2) (xy 107.65 105.1046) (xy 107.05387 105.1046)
+					(xy 220.19387 73.5) (xy 220.79 73.5) (xy 220.79 86.4046) (xy 220.19387 86.4046)
 				)
 			)
 		)
@@ -17094,7 +17098,7 @@
 			)
 			(polygon
 				(pts
-					(xy 107.05739 92.21) (xy 107.65 92.21) (xy 107.65 105.10878) (xy 107.05739 105.10878)
+					(xy 220.19739 73.51) (xy 220.79 73.51) (xy 220.79 86.40878) (xy 220.19739 86.40878)
 				)
 			)
 		)
@@ -19639,7 +19643,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "91b01468-62d7-4268-8c88-f75196c6ae90")
-		(at 118 173.2)
+		(at 114.4 172.2)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J72"
@@ -19656,6 +19660,7 @@
 		(property "Value" "Conn_01x01_Socket"
 			(at 0 2.54 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f792b6b8-13ac-42fc-b036-e00a6281c203")
 			(effects
 				(font
@@ -26467,7 +26472,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cbbce2d6-532d-405e-8400-b432bd483f9f")
-		(at 98.55 112.6)
+		(at 211.69 93.9)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -26830,13 +26835,13 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "ccbd9d75-0537-40e5-9293-6a14e7e2c3e6")
-		(at 115.8 67.8)
+		(at 111.8 142)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J75"
 			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "0fb07411-14db-4b5b-8ac0-4ad37a170b43")
+			(uuid "80fd7239-ee03-47e9-a7cf-fc16c3e48260")
 			(effects
 				(font
 					(size 1 1)
@@ -26847,7 +26852,8 @@
 		(property "Value" "Conn_01x01_Socket"
 			(at 0 2.54 0)
 			(layer "F.Fab")
-			(uuid "d51a9bf1-f05b-4e81-abed-9c1b122b374f")
+			(hide yes)
+			(uuid "697b46d0-2848-4a3f-b542-d87ddbbb8f2f")
 			(effects
 				(font
 					(size 1 1)
@@ -26860,7 +26866,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51be2d10-5773-493b-b771-2cea4baf9c98")
+			(uuid "942aa380-3e7e-4bb2-81b4-f1f9607d87bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26873,7 +26879,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dfd5cd7-5a84-4016-bc07-1d5864fddfff")
+			(uuid "c635d524-c4d8-4b1b-84c2-b284af1af08a")
 			(effects
 				(font
 					(size 1.27 1.27)
