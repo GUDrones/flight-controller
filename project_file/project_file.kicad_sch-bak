@@ -25193,7 +25193,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 275.59 330.2 180)
+		(at 276.86 330.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25201,7 +25201,7 @@
 		(dnp no)
 		(uuid "8855891f-d21e-4d25-a7ec-74ab564b451d")
 		(property "Reference" "J34"
-			(at 274.32 331.216 90)
+			(at 275.59 331.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25210,7 +25210,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 277.4949 328.93 90)
+			(at 278.7649 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25220,7 +25220,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 275.59 330.2 0)
+			(at 276.86 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25229,7 +25229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 330.2 0)
+			(at 276.86 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25238,7 +25238,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 275.59 330.2 0)
+			(at 276.86 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
